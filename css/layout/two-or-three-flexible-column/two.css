@@ -1,0 +1,27 @@
+body {
+	color: white;
+	margin: 0;
+}
+header {
+	background-color: #27B3E0;
+}
+.sidebar {
+	float: left;
+	width: 20%;
+	background-color: #61AF8E;
+	min-height: 500px;
+	word-wrap: break-word;
+}
+.content {
+	background-color: #E78772;
+	float: right;
+	min-height: 500px;
+	width: 80%;
+}
+footer {
+	background-color: #8080C0;
+	clear: both;
+}
+p {
+	margin: 0;
+}

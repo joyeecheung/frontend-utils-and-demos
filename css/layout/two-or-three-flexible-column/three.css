@@ -1,0 +1,29 @@
+body {
+	color: white;
+	margin: 0;
+}
+header {
+	background-color: #27B3E0;
+}
+nav, .sidebar {
+	background-color: #61AF8E;
+	width: 20%;
+	min-height: 500px;
+}
+nav {
+	float: left;
+}
+.sidebar {
+	float: right;
+}
+.content {
+	background-color: #E78772;
+	margin: 0 20%;
+	min-height: 500px;
+}
+footer {
+	background-color: #8080C0;
+}
+p {
+	margin: 0;
+}

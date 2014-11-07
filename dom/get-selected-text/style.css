@@ -1,0 +1,15 @@
+.container {
+	width: 500px;
+	margin: 10px auto;
+}
+
+#output {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+
+p {
+	margin: 20px;
+	padding: 0;
+}

@@ -1,0 +1,34 @@
+#container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.section {
+	background-color: #808080;
+	margin-top: 10px;
+	color: white;
+	padding: 0 10px 10px 10px;
+}
+
+#sec-1 { background-color: #EC91B8; }
+#sec-2 { background-color: #9786C4; }
+#sec-3 { background-color: #63CED3; }
+#sec-4 { background-color: #ED9874; }
+#sec-5 { background-color: #93C069; }
+
+.counter {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#controls {
+	text-align: center;
+}
+
+#btn-reverse {
+	background-color: #77BBBB;
+	font-family: inherit;
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+}
