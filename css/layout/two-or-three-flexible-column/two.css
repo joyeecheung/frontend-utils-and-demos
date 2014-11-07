@@ -2,7 +2,7 @@ body {
 	color: white;
 	margin: 0;
 }
-header {
+.header {
 	background-color: #27B3E0;
 }
 .sidebar {
@@ -18,7 +18,7 @@ header {
 	min-height: 500px;
 	width: 80%;
 }
-footer {
+.footer {
 	background-color: #8080C0;
 	clear: both;
 }

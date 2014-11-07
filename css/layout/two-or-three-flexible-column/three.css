@@ -2,15 +2,15 @@ body {
 	color: white;
 	margin: 0;
 }
-header {
+.header {
 	background-color: #27B3E0;
 }
-nav, .sidebar {
+.nav, .sidebar {
 	background-color: #61AF8E;
 	width: 20%;
 	min-height: 500px;
 }
-nav {
+.nav {
 	float: left;
 }
 .sidebar {
@@ -21,7 +21,7 @@ nav {
 	margin: 0 20%;
 	min-height: 500px;
 }
-footer {
+.footer {
 	background-color: #8080C0;
 }
 p {
