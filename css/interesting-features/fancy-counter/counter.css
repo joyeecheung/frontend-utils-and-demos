@@ -1,67 +1,67 @@
 .capitalize:first-letter {
-	font-size: 30px;
-	font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .fancy {
-	counter-reset: chapter;
+    counter-reset: chapter;
 }
 
 .fancy ol, .fancy li, .fancy p {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .fancy .chapter:before {
-	content: "Chapter " counter(chapter);
-	counter-increment: chapter;
+    content: "Chapter " counter(chapter);
+    counter-increment: chapter;
 }
 
 .fancy .chapter {
-	counter-reset: section;
-	margin-top: 1em;
+    counter-reset: section;
+    margin-top: 1em;
 }
 
 .fancy .section:before {
-	content: counter(chapter) "." counter(section);
-	counter-increment: section;
+    content: counter(chapter) "." counter(section);
+    counter-increment: section;
 }
 .fancy .section {
-	list-style-type: none;
-	counter-reset: subsection;
-	padding-left: 1em;
-	margin-top: 1em;
+    list-style-type: none;
+    counter-reset: subsection;
+    padding-left: 1em;
+    margin-top: 1em;
 }
 
 .fancy .subsection:before {
-	content: counter(chapter) "." counter(section) "." counter(subsection);
-	counter-increment: subsection;
-	display: block;
+    content: counter(chapter) "." counter(section) "." counter(subsection);
+    counter-increment: subsection;
+    display: block;
 }
 .fancy .subsection {
-	list-style-type: none;
-	padding-left: 1em;
+    list-style-type: none;
+    padding-left: 1em;
 }
 .fancy .subsection p {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
 .countdown {
-	counter-reset: movie 4;
-	padding: 0;
-	margin: 0;
+    counter-reset: movie 4;
+    padding: 0;
+    margin: 0;
 }
 
 .movie p:before {
-	content: counter(movie) ". ";
+    content: counter(movie) ". ";
 }
 
 .movie dl {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
 .movie {
-	list-style-type: none;
-	padding-left: 1em;
-	counter-increment: movie -1;
+    list-style-type: none;
+    padding-left: 1em;
+    counter-increment: movie -1;
 }

@@ -1,161 +1,161 @@
 div {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 div div {
-	background: #A4CA39;  /* green */
-	position: relative;
+    background: #A4CA39;  /* green */
+    position: relative;
 }
 
 .android {
-	height: 404px;
-	width: 220px;
-	padding: 60px 120px;
-	margin: 0 auto;  /* center */
+    height: 404px;
+    width: 220px;
+    padding: 60px 120px;
+    margin: 0 auto;  /* center */
 }
 
 .head {
-	width: 220px;
-	height: 100px;
+    width: 220px;
+    height: 100px;
 
-	/* round top */
-	-webkit-border-radius: 110px 110px 0 0;
-	-moz-border-radius: 110px 110px 0 0;
-	-ms-border-radius: 110px 110px 0 0;
-	-o-border-radius: 110px 110px 0 0;
-	border-radius: 110px 110px 0 0;
+    /* round top */
+    -webkit-border-radius: 110px 110px 0 0;
+    -moz-border-radius: 110px 110px 0 0;
+    -ms-border-radius: 110px 110px 0 0;
+    -o-border-radius: 110px 110px 0 0;
+    border-radius: 110px 110px 0 0;
 }
 
 .l-eye, .r-eye {
-	background: #fff;
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 42px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .l-eye {
-	left: 50px;
+    left: 50px;
 }
 
 .r-eye {
-	right: 50px;
+    right: 50px;
 }
 
 .l-ant, .r-ant {
-	width: 6px;
-	height: 50px;
-	position: absolute;
-	top: -34px;
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    top: -34px;
 
-	/* round end */
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
+    /* round end */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .l-ant {
-	left: 50px;
-	-webkit-transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg);
-	-o-transform: rotate(-30deg);
-	transform: rotate(-30deg);
+    left: 50px;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
 
 .r-ant {
-	right: 50px;
-	-webkit-transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
-	transform: rotate(30deg);
+    right: 50px;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 
 .body {
-	width: 220px;
-	height: 184px;
-	top: 10px;
+    width: 220px;
+    height: 184px;
+    top: 10px;
 
-	-webkit-border-radius: 0 0 25px 25px;
-	-moz-border-radius: 0 0 25px 25px;
-	-ms-border-radius: 0 0 25px 25px;
-	-o-border-radius: 0 0 25px 25px;
-	border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -ms-border-radius: 0 0 25px 25px;
+    -o-border-radius: 0 0 25px 25px;
+    border-radius: 0 0 25px 25px;
 }
 
 .l-arm, .r-arm, .l-leg, .r-leg {
-	width: 50px;
-	position: absolute;
+    width: 50px;
+    position: absolute;
 }
 
 .l-arm, .r-arm {
-	height: 150px;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-ms-border-radius: 25px;
-	-o-border-radius: 25px;
-	border-radius: 25px;
+    height: 150px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .l-leg, .r-leg {
-	height: 80px;
-	top: 182px;
+    height: 80px;
+    top: 182px;
 
-	-webkit-border-radius: 0 0 25px 25px;
-	-moz-border-radius: 0 0 25px 25px;
-	-ms-border-radius: 0 0 25px 25px;
-	-o-border-radius: 0 0 25px 25px;
-	border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -ms-border-radius: 0 0 25px 25px;
+    -o-border-radius: 0 0 25px 25px;
+    border-radius: 0 0 25px 25px;
 }
 
 .l-arm {
-	left: -58px;
+    left: -58px;
 }
 
 .r-arm {
-	right: -58px;
+    right: -58px;
 }
 
 .l-leg {
-	left: 45px;
+    left: 45px;
 }
 
 .r-leg {
-	right: 45px;
+    right: 45px;
 }
 
 /* animation */
 
 .head, .l-arm, .r-arm {
-	-webkit-transition: all 0.1s ease-in;
-	-o-transition: all 0.1s ease-in;
-	transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
 }
 
 .head:hover {
-	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
-	-ms-transform: rotate(-5deg) translate(-4px, -8px);
-	-o-transform: rotate(-5deg) translate(-4px, -8px);
-	transform: rotate(-5deg) translate(-4px, -8px);
+    -webkit-transform: rotate(-5deg) translate(-4px, -8px);
+    -ms-transform: rotate(-5deg) translate(-4px, -8px);
+    -o-transform: rotate(-5deg) translate(-4px, -8px);
+    transform: rotate(-5deg) translate(-4px, -8px);
 }
 
 .l-arm:hover {
-	-webkit-transform: rotate(15deg) translate(-14px, 0);
-	-ms-transform: rotate(15deg) translate(-14px, 0);
-	-o-transform: rotate(15deg) translate(-14px, 0);
-	transform: rotate(15deg) translate(-14px, 0);
+    -webkit-transform: rotate(15deg) translate(-14px, 0);
+    -ms-transform: rotate(15deg) translate(-14px, 0);
+    -o-transform: rotate(15deg) translate(-14px, 0);
+    transform: rotate(15deg) translate(-14px, 0);
 }
 
 .r-arm:hover {
-	-webkit-transform: rotate(-30deg) translate(30px, 0);
-	-ms-transform: rotate(-30deg) translate(30px, 0);
-	-o-transform: rotate(-30deg) translate(30px, 0);
-	transform: rotate(-30deg) translate(30px, 0);
+    -webkit-transform: rotate(-30deg) translate(30px, 0);
+    -ms-transform: rotate(-30deg) translate(30px, 0);
+    -o-transform: rotate(-30deg) translate(30px, 0);
+    transform: rotate(-30deg) translate(30px, 0);
 }

@@ -1,13 +1,13 @@
 #container {
-	width: 500px;
-	margin: 0 auto;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .section {
-	background-color: #808080;
-	margin-top: 10px;
-	color: white;
-	padding: 0 10px 10px 10px;
+    background-color: #808080;
+    margin-top: 10px;
+    color: white;
+    padding: 0 10px 10px 10px;
 }
 
 #sec-1 { background-color: #EC91B8; }
@@ -17,18 +17,18 @@
 #sec-5 { background-color: #93C069; }
 
 .counter {
-	font-size: 30px;
-	font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #controls {
-	text-align: center;
+    text-align: center;
 }
 
 #btn-reverse {
-	background-color: #77BBBB;
-	font-family: inherit;
-	font-size: 20px;
-	color: white;
-	padding: 5px;
+    background-color: #77BBBB;
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
 }

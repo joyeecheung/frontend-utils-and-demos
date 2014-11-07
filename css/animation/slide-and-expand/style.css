@@ -1,52 +1,52 @@
 #container {
-	width: 700px;
-	margin: 0 auto;
+    width: 700px;
+    margin: 0 auto;
 }
 
 #new-comment-form {
-	text-align: right;
+    text-align: right;
 }
 
 #new-comment-form textarea {
-	width: 95%;
-	height: 100px;
-	margin: 0;
-	padding: 2%;
+    width: 95%;
+    height: 100px;
+    margin: 0;
+    padding: 2%;
 }
 
 #btn {
-	margin-top: 10px;
-	padding: 0;
-	border: 1px solid white;
-	background-color: #408080;
-	color: white;
-	font-family: inherit;
-	width: 100px;
-	height: 30px;
-	cursor:  pointer;
+    margin-top: 10px;
+    padding: 0;
+    border: 1px solid white;
+    background-color: #408080;
+    color: white;
+    font-family: inherit;
+    width: 100px;
+    height: 30px;
+    cursor:  pointer;
 }
 
 #old-comment {
 }
 
 .comment {
-	margin: 5%;
-	width: 85%;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 5px;
-	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-	overflow: hidden;
-	max-height: 200px; /* approximate max height */
+    margin: 5%;
+    width: 85%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-height: 200px; /* approximate max height */
 
-	-webkit-transition: all .5s ease-in;
-	-o-transition: all .5s ease-in;
-	transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 
 .comment p {
-	margin: 30px;
+    margin: 30px;
 }
 
 .hide {
-	max-height: 0;
+    max-height: 0;
 }

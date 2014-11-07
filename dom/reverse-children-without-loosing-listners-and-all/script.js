@@ -16,7 +16,7 @@
         var emptyLeft = d.createElement('span');
         var emptyRight = d.createElement('span');
         var oldFirstChild = pare.firstChild;
-        for (var i = 0, len = pare.childNodes.length; i < Math.floor(len/2); i++) {
+        for (var i = 0, len = pare.childNodes.length; i < Math.floor(len / 2); i++) {
             var left = pare.replaceChild(emptyLeft, pare.childNodes[i]);
             var right = pare.replaceChild(emptyRight, pare.childNodes[len - i - 1]);
             emptyLeft = pare.replaceChild(right, emptyLeft);
@@ -34,7 +34,7 @@
             arr.push(pare.removeChild(pare.firstChild));
         }
         arr.reverse();
-        arr.forEach(function(node){
+        arr.forEach(function(node) {
             pare.appendChild(node);
         });
     }
@@ -42,7 +42,7 @@
     // Detach a Dom node, do something inside it, then place it back
     // Requires that fn won't access the parent of this node.
     function doInsideDomNode(d, node, fn) {
-        var clone = node.cloneNode(false);  // get a shallow clone
+        var clone = node.cloneNode(false); // get a shallow clone
         var detachedNode = node.parentNode.replaceChild(clone, node);
 
         fn(detachedNode);
