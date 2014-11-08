@@ -13,9 +13,8 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 #### CSS
 
 * **Animation**
-	* 
 * **Painting with div**
-	* [Animated Android Logo](css/div-painting/div-animated-android/android.html)
+	* [Animated Android Logo](css/div-painting/div-animated-android)
 * **Interesting featres**
 	* [Fancy counter](css/interesting-features/fancy-counter)
 * **Layout**
