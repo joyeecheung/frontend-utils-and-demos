@@ -1,0 +1,45 @@
+.container {
+    height: 400px;
+    width: 500px;
+    background-color: #EBECE8;
+    position: relative;
+    float: left;
+    margin: 40px;
+}
+
+.draggable {
+    position: absolute;
+    background-color: #25A5A2;
+}
+
+.draggable1 {
+    left: 20px;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #FF80C0;
+}
+
+.draggable2 {
+    left: 230px;
+    top: 230px;
+    height: 30px;
+    width: 30px;
+    background-color: #8080FF;
+}
+
+.draggable3 {
+    left: 60px;
+    top: 120px;
+    height: 30px;
+    width: 30px;
+    background-color: #84C767;
+}
+
+.draggable4 {
+    left: 250px;
+    top: 60px;
+    height: 60px;
+    width: 60px;
+    background-color: #91DEEE;
+}
