@@ -1,5 +1,5 @@
 .container {
-    height: 400px;
+    height: 1000px;
     width: 500px;
     background-color: #EBECE8;
     position: relative;
@@ -22,7 +22,7 @@
 
 .draggable2 {
     left: 230px;
-    top: 230px;
+    top: 530px;
     height: 30px;
     width: 30px;
     background-color: #8080FF;
@@ -38,7 +38,7 @@
 
 .draggable4 {
     left: 250px;
-    top: 60px;
+    top: 760px;
     height: 60px;
     width: 60px;
     background-color: #91DEEE;
