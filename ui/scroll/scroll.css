@@ -1,7 +1,7 @@
 #scroller {
 	/* to understand how it works, change `hidden` to `scroll`*/
-	/*overflow: hidden;*/
-    overflow: scroll;
+	overflow: hidden;
+    /*overflow: scroll;*/
     background: #888888;
 }
 #scroller #inner, #scroller #inner-clone {
