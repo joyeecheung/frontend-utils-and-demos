@@ -1,0 +1,23 @@
+#scroller {
+	/* to understand how it works, change `hidden` to `scroll`*/
+	/*overflow: hidden;*/
+    overflow: scroll;
+    background: #888888;
+}
+#scroller #inner, #scroller #inner-clone {
+    float: left;
+	/* should be equal to the screen width 
+	 * if a seamless effect is desired 
+	 * i.e. the following clone will scroll in
+	 * from the right edge of the window */
+	width: 1368px;
+}
+#scroller #outer {
+	width: 10000px;
+}
+
+#scroller a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+}
