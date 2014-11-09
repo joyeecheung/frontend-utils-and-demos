@@ -28,4 +28,5 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 
 #### UI
 * [Slide and expand(like Sina weibo V6)](ui/slide-and-expand)
-* [Draggable using vanilla JS](ui/draggable)
+* [Cross-browser and scrolling friendly draggable using vanilla JS](ui/draggable)
+* [Scrolling announcement](ui/scroll)
