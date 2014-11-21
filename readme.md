@@ -13,6 +13,7 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 #### CSS
 
 * **Animation**
+    * [Scale on hover](css/animation/scale-on-hover)
 * **Painting with div**
 	* [Animated Android Logo](css/div-painting/div-animated-android)
 * **Interesting featres**
