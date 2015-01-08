@@ -1,0 +1,87 @@
+body {
+    background-color: #C0C0C0;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: white;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 3px;
+    -moz-box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.reference {
+    width: 30%;
+    float: right;
+}
+
+.reference ul {
+    padding-left: 1em;
+}
+
+.reference ul li {
+    margin-bottom: 5px;
+}
+
+.reference a:link, .referece a:visited {
+    text-decoration: none;
+}
+
+.reference a:hover, .referece a:active {
+    text-decoration: underline;
+}
+
+.demo {
+    width: 65%;
+    float: left;
+    margin-top: 10px;
+}
+
+.demo select {
+    width: 200px;
+    font-size: 20px;
+    font-family: inherit;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.demo .data {
+    width: 70%;
+    float: left;
+}
+
+.demo .display {
+    width: 30%;
+    float: right;
+}
+
+#circle {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.demo .notice {
+    clear: both;
+    margin-top: 70px;
+}
+
+.demo .notice h2 {
+    margin: 0;
+}
+
+.demo .notice dl {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.demo .notice dt {
+    font-weight: bolder;
+}

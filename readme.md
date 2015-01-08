@@ -31,3 +31,7 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 * [Slide and expand(like Sina weibo V6)](ui/slide-and-expand)
 * [Cross-browser and scrolling friendly draggable using vanilla JS](ui/draggable)
 * [Scrolling announcement](ui/scroll)
+
+
+#### New Web APIs
+* [localStorage API demo](new-api/localStorage)
