@@ -1,0 +1,80 @@
+body {
+    background-color: #C0C0C0;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: white;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 3px;
+    -moz-box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.result .func-name {
+    font-size: 26px;
+    padding: 5px;
+    border-bottom: 2px solid #C8C8C8;
+}
+
+.result .source {
+    word-wrap: pre-wrap;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.pass dt, .fail dt {
+    float: left;
+    clear: left;
+    width: 100px;
+}
+
+.pass dd, .fail dd {
+    float: left;
+}
+
+.pass dl, .fail dl {
+    overflow: hidden;
+}
+
+.pass .case-name, .fail .case-name {
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.pass .actual {
+    color: #85BC52;
+}
+
+.fail .actual {
+    color: #FF8080;
+}
+
+.actual, .expected, .input {
+    font-family: monospace;
+}
+
+.pass .case-name {
+    background-color: #85BC52;
+}
+
+.pass .case-name:before {
+    content: '\221A';
+    margin-right: 10px;
+}
+
+.fail .case-name {
+    background-color: #FF8080;
+}
+
+.fail .case-name:before {
+    content: '\00D7';
+    margin-right: 10px;
+}
