@@ -12,14 +12,11 @@ function recursiveReverse(seq) {
 // reverse' list = rev list []
 //   where rev []     ret = ret
 //         rev (x:xs) ret = rev xs (x:ret)
-function tailReverse(seq, ret) {
-    if (typeof ret === "undefined") {
-        return tailReverse(seq, typeof seq === "string" ? "" : []);
-    } else if (seq.length > 0) {
-        return tailReverse(seq.slice(1), seq.slice(0, 1).concat(ret));
-    } else {
-        return ret;
-    }
+function tailReverse(seq) {
+    return (function rev(seq, ret) {
+        return seq.length > 0 ?
+            rev(seq.slice(1), seq.slice(0, 1).concat(ret)) : ret;
+    })(seq, seq.slice(0, 0));
 }
 
 var arrayCases = [
