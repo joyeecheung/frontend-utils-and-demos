@@ -35,3 +35,7 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 
 #### New Web APIs
 * [localStorage API demo](new-api/localStorage)
+
+#### Playing with JavaScript
+
+* [Reverse a sequence with recursion/tail recursion/ES6 destructuring assignment](js/recursive-reverse)

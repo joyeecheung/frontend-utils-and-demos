@@ -1,4 +1,4 @@
-### Reverse a sequence with recursion/tail recursion/ES6 destructuring
+### Reverse a sequence with recursion/tail recursion/ES6 destructuring assignment
 
 #### Simple recursive version (supports array and strings)
 
