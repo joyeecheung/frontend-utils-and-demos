@@ -50,8 +50,19 @@ var testUtil = (function(d, undefined) {
         return element;
     }
 
+    function isSeqEqual(a, b) {
+        if (typeof a === "string" || typeof b === "string") {
+            return a === b;
+        } else {
+            return a.length == b.length &&
+                a.every(function(ai, i) {
+                    return ai == b[i];
+                });
+        }
+    }
     return {
-        assert : assert
+        assert : assert,
+        isSeqEqual : isSeqEqual
     };
 
 }(document));

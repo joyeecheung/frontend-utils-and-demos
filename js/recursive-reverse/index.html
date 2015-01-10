@@ -6,11 +6,14 @@
     <link rel="stylesheet" type="text/css" href="test.css">
 </head>
 <body>
-    <div id="main">
-
-    </div>
-
-<script type="text/javascript" src="test.js"></script>
-<script type="text/javascript" src="reverse.js"></script>
+    <div id="main"></div>
+    <script type="text/javascript">
+        window.onerror = function() {
+            alert("Your browser doesn't support ES6 at this moment.");
+        };
+    </script>
+    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="reverse.js"></script>
+    <script type="text/javascript" src="es6-reverse.js"></script>
 </body>
 </html>

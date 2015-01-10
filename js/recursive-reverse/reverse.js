@@ -1,14 +1,15 @@
 ;(function(d, undefined){
-// reverse :: [a] -> [a]
-// reverse []     = []
-// reverse (x:xs) = reverse xs ++ [x]
-function reverse(seq) {
+
+// reverse' :: [a] -> [a]
+// reverse' []     = []
+// reverse' (x:xs) = reverse' xs ++ [x]
+function recursiveReverse(seq) {
     return seq.length > 1 ?
-        reverse(seq.slice(1)).concat(seq.slice(0, 1)) : seq;
+        recursiveReverse(seq.slice(1)).concat(seq.slice(0, 1)) : seq;
 }
 
-// reverse :: [a] -> [a]
-// reverse list = rev list []
+// reverse' :: [a] -> [a]
+// reverse' list = rev list []
 //   where rev []     ret = ret
 //         rev (x:xs) ret = rev xs (x:ret)
 function tailReverse(seq, ret) {
@@ -21,18 +22,7 @@ function tailReverse(seq, ret) {
     }
 }
 
-function isSeqEqual(a, b) {
-    if (typeof a === "string" || typeof b === "string") {
-        return a === b;
-    } else {
-        return a.length == b.length &&
-            a.every(function(ai, i) {
-                return ai == b[i];
-            });
-    }
-}
-
-var cases = [
+var arrayCases = [
     {
         name: "Array with even number of elements",
         input: [1, 2, 3, 4],
@@ -52,7 +42,10 @@ var cases = [
         name: "Array with one element",
         input: [1],
         expected: [1]
-    },
+    }
+];
+
+var stringCases = [
     {
         name: "String with even number of characters",
         input: "abcd",
@@ -75,8 +68,10 @@ var cases = [
     }
 ];
 
+var cases = arrayCases.concat(stringCases);
+
 testUtil.assert("Recursive reverse",
-                cases, reverse, isSeqEqual);
-testUtil.assert("Recursive reverse(tail recursion)",
-                cases, tailReverse, isSeqEqual);
+                cases, recursiveReverse, testUtil.isSeqEqual);
+testUtil.assert("Recursive reverse (tail recursion)",
+                cases, tailReverse, testUtil.isSeqEqual);
 }(document));
