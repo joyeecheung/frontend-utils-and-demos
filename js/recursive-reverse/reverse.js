@@ -24,6 +24,11 @@ function tailReverse(seq, ret) {
 
 var arrayCases = [
     {
+        name: "Empty array",
+        input: [],
+        expected: []
+    },
+    {
         name: "Array with even number of elements",
         input: [1, 2, 3, 4],
         expected: [4, 3, 2, 1]
@@ -46,6 +51,11 @@ var arrayCases = [
 ];
 
 var stringCases = [
+    {
+        name: "Empty string",
+        input: "",
+        expected: ""
+    },
     {
         name: "String with even number of characters",
         input: "abcd",
