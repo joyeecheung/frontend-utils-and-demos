@@ -4,7 +4,7 @@
 // reverse' []     = []
 // reverse' (x:xs) = reverse' xs ++ [x]
 function pmReverse([x, ...xs]) {
-    return xs.length > 0 ? pmReverse(xs).concat([x]) : [x];
+    return typeof x === "undefined" ? [] : pmReverse(xs).concat([x]);
 }
 
 // ES6 version
@@ -15,11 +15,16 @@ function pmReverse([x, ...xs]) {
 
 function pmTailReverse(list) {
     return (function rev([x, ...xs], ret) {
-        return xs.length > 0 ? rev(xs, [x].concat(ret)) : [x].concat(ret);
+        return typeof x === "undefined" ? ret : rev(xs, [x].concat(ret));
     })(list, []);
 }
 
 var arrayCases = [
+    {
+        name: "Empty array",
+        input: [],
+        expected: []
+    },
     {
         name: "Array with even number of elements",
         input: [1, 2, 3, 4],
