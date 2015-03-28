@@ -3,11 +3,12 @@ body {
 }
 
 main {
-    max-width: 880px;
-    min-height: 600px;
+    width: 880px;
+    height: 600px;
     background-color: white;
     margin: 0 auto;
     overflow: hidden;
+    display: block;
 }
 
 .control {
