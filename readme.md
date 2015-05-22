@@ -34,7 +34,7 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 
 #### New Web APIs
 * [localStorage API demo](new-api/localStorage)
-* [Web Audio API demo - AnalyserNode](new-api/new-api/AnalyserNode)
+* [Web Audio API demo - AnalyserNode](new-api/AnalyserNode)
 
 #### Playing with JavaScript
 
