@@ -32,10 +32,12 @@ Most of them are tested on IE8 and the latest stable release of Chrome and Firef
 * [Cross-browser and scrolling friendly draggable using vanilla JS](ui/draggable)
 * [Scrolling announcement](ui/scroll)
 
-
 #### New Web APIs
 * [localStorage API demo](new-api/localStorage)
+* [Web Audio API demo - AnalyserNode](new-api/new-api/AnalyserNode)
 
 #### Playing with JavaScript
 
 * [Reverse a sequence with recursion/tail recursion/ES6 destructuring assignment](js/recursive-reverse)
+* [Promise](js/promise)
+* [URL Utilities](js/urlutil)
